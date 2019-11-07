@@ -117,4 +117,10 @@ class Vuex
     {
         return json_encode(self::asArray());
     }
+
+    public static function asResponse() {
+        return response()->json([
+            'vuex' => self::asArray()
+        ]);
+    }
 }
