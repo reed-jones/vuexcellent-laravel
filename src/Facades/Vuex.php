@@ -120,7 +120,7 @@ class Vuex
 
     public static function asResponse() {
         return response()->json([
-            'vuex' => self::asArray()
+            '$vuex' => self::asArray()
         ]);
     }
 }
