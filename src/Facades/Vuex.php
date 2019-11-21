@@ -118,6 +118,12 @@ class Vuex
         return json_encode(self::asArray());
     }
 
+    /**
+     * Returns the current vuex data as a json response to
+     * be picked up by the front end.
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
     public static function asResponse() {
         return response()->json([
             '$vuex' => self::asArray()

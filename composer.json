@@ -1,7 +1,7 @@
 {
     "name": "reed-jones/vuexcellent",
-    "version": "v1.2.0",
-    "description": "",
+    "version": "v1.3.0",
+    "description": "Magic Data Loading. Laravel <-> Vuex Syncing",
     "type": "library",
     "license": "ISC",
     "authors": [
